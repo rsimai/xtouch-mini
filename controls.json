@@ -1,4 +1,9 @@
 {
+  "154_14": {
+    "activity": "solo",
+    "channel": 15,
+    "osc_path": "/-stat/solosw/15"
+  },
   "154_15": {
     "activity": "solo",
     "channel": "aux",
@@ -8,6 +13,16 @@
     "activity": "mute",
     "channel": 1,
     "osc_path": "/ch/01/mix/on"
+  },
+  "154_17": {
+    "activity": "mute",
+    "channel": 5,
+    "osc_path": "/ch/05/mix/on"
+  },
+  "154_22": {
+    "activity": "mute",
+    "channel": 15,
+    "osc_path": "/ch/15/mix/on"
   },
   "154_23": {
     "activity": "mute",
@@ -19,10 +34,25 @@
     "channel": 1,
     "osc_path": "/-stat/solosw/01"
   },
+  "154_9": {
+    "activity": "solo",
+    "channel": 5,
+    "osc_path": "/-stat/solosw/05"
+  },
   "186_1": {
     "activity": "volume",
     "channel": 1,
     "osc_path": "/ch/01/mix/fader"
+  },
+  "186_2": {
+    "activity": "volume",
+    "channel": 5,
+    "osc_path": "/ch/05/mix/fader"
+  },
+  "186_7": {
+    "activity": "volume",
+    "channel": 15,
+    "osc_path": "/ch/15/mix/fader"
   },
   "186_8": {
     "activity": "volume",

@@ -65,3 +65,15 @@ python main.py
 - **Master channel**: Full volume, mute, and solo control
 - **Volume controls**: Continuous 0-127 MIDI to 0.0-1.0 OSC
 - **Button controls**: Toggle behavior for mute/solo
+
+## Build Single Binary
+
+```bash
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install pyinstaller
+pyinstaller main.py --onefile
+deactivate
+```
+Copy dist/main to your ~/bin, run this for the mapping.
